@@ -12,9 +12,9 @@ You can set this command in the startup command in Azure Portal to serve the bui
 You can set the following app settings in Azure Portal to run custom scripts.
 
 #### Oryx settings
-`PRE_BUILD_SCRIPT_PATH = preinstall.sh`
+`PRE_BUILD_SCRIPT_PATH = scripts/preinstall.sh`
 
-`POST_BUILD_SCRIPT_PATH = postinstall.sh`
+`POST_BUILD_SCRIPT_PATH = scripts/postinstall.sh`
 
 NOTE: As described in npm docs, scripts named prebuild and postbuild will run before and after build respectively if specified; and preinstall and postinstall will run before and after install.
 
